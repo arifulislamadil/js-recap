@@ -75,10 +75,14 @@ const treatToday =(friendsName)=>{
     const totalNumber = friendsName.length;
     const outPutRandom4 = Math.floor(Math.random()*totalNumber);
     const get = friendsName[outPutRandom4]
-    return get;
+  const getId= document.getElementById("count-el");
+  getId.innerHTML=`
+  ${get}
+  `
+
 }
 
-console.log(treatToday(friendsName))
+
 
 
 for(let i =0; i<=10;i++){
