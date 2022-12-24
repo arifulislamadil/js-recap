@@ -8,4 +8,4 @@ const fiboRecursive=(n)=>{
      return fiboRecursive(n-1)+fiboRecursive(n-2);
 }
 
-console.log(fiboRecursive(6))
+console.log(fiboRecursive(6)) 
