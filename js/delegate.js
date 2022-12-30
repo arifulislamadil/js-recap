@@ -20,3 +20,5 @@ document.getElementById("add-item-btn").addEventListener("click",function(){
 document.getElementById("item-container").addEventListener("click",function(Event){
     event.target.parentNode.removeChild(event.target)
 })
+
+// window.location.href="index.html"
